@@ -1,19 +1,15 @@
-body, html {
-    height: 100%;
+body {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  border: none;
+  background-size: cover;
+  background-position: top;
+  height: 100%;
+  width: 100%;
   }
-  
-  div.bg-img {
-    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
-    border: none;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    background-position: top;
-    min-height: 1000px;
-  }
-  div.bg-2 {
+
+  div.bg {
     background-color:rgba(0, 0, 0, 0.300);
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width:90%
   }
 
@@ -23,56 +19,84 @@ body, html {
     background-color:rgba(0, 0, 0, 0.800);
     color: white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width:320px;
     font-family: Arial;
     font-size: small;
   }
-  /* Add styles to the form container */
-  
+  #n {
+    color:white ;
+    font-family: 'Bowlby One', cursive;
+    font-size: 42px;
+  }
+    #e {
+    color:white ;
+    font-family: 'Bowlby One', cursive;
+    font-size: larger;
+  }
+    #t {
+    color:white ;
+    font-family: 'Bowlby One', cursive;
+    font-size: larger;
+  }
+    #f {
+    color:rgb(255, 0, 0) ;
+    font-family: 'Bowlby One', cursive;
+    font-size: 42px;
+  }
+    #l {
+    color:rgb(255, 0, 0)  ;
+    font-family: 'Bowlby One', cursive;
+    font-size: larger;
+  }
+    #i {
+    color:rgb(255, 0, 0)  ;
+    font-family: 'Bowlby One', cursive;
+    font-size: larger;
+  }
+    #x {
+    color:rgb(255, 0, 0)  ;
+    font-family: 'Bowlby One', cursive;
+    font-size: larger;
+  }
+
+h1 {
+  letter-spacing: 1px;
+  text-align: center; 
+  padding:15px 0 0 0; 
+  margin-bottom: 0
+}
+
+h3 {
+    color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+    text-align: center; 
+    margin-top:10px  ;
+  }
+
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
   /* Full-width input fields */
-    input[type=text], input[type=number], input[type=email]  {
+  input[type=text], input[type=number], input[type=email]  {
     width: 95%;
     padding: 15px;
     margin: 15px 0 15px 0;
     border: none;
     background:white;
-
-  }
-h3,label {
-    color: white;
-  }
-  label {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #n {
-  color:white ;
-  font-family:Impact;
-  font-size: 45px;
-}
-  #et {
-  color:white ;
-  font-family:Impact;
-  font-size: larger;
-}
-  #f {
-  color:rgb(229, 9, 20) ;
-  font-family:Impact;
-  font-size: 45px;
-}
-  #lix {
-  color:rgb(229, 9, 20)  ;
-  font-family:Impact;
-  font-size: larger;
-}
+  }  
+  
 input[type=submit] {
   padding:10px 30px; 
-  background:rgb(229, 9, 20); 
+  background:rgb(255, 0, 0); 
   border:0 none;
-  cursor:pointer;
+  cursor: pointer;
   border-radius: 20px;
   color: white;
   font-size: medium;
-  margin-left: 100px;
+  margin-left:100px;
+  width:40%;
+  margin-top: 10px;
 }
