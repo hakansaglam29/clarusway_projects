@@ -4,13 +4,13 @@ body {
   background-size: cover;
   background-position: top;
   height: 100%;
-  width: 100%;
+  width: 100%;    /* Sayfadaki kaymalar bu sayede engellendi. */
   }
 
   div.bg {
     background-color:rgba(0, 0, 0, 0.300);
-    margin:auto;
-    width:90%
+    margin:auto;  /* Arka planin ortali kalmasi bu sayede saglandi */
+    width:90%   /* Arka planin sayfa degisse bile ayni oranda kücülmesi saglanmis oldu. */
   }
 
   /* Add styles to the form container */
@@ -19,45 +19,20 @@ body {
     background-color:rgba(0, 0, 0, 0.800);
     color: white;
     display: block;
-    margin:auto;
-    width:320px;
+    margin:auto;  /* Arka planin ortali kalmasi bu sayede saglandi */
+    width:320px;   /* Form sayfasinin hep ayni genislikte kalmasini istedigim icin px degeri girdim */
     font-family: Arial;
     font-size: small;
   }
-  #n {
+  #net {
     color:white ;
     font-family: 'Bowlby One SC', cursive;
     font-size: 42px;
   }
-    #e {
-    color:white ;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: larger;
-  }
-    #t {
-    color:white ;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: larger;
-  }
-    #f {
+    #flix {
     color:rgb(255, 0, 0) ;
     font-family: 'Bowlby One SC', cursive;
     font-size: 42px;
-  }
-    #l {
-    color:rgb(255, 0, 0)  ;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: larger;
-  }
-    #i {
-    color:rgb(255, 0, 0)  ;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: larger;
-  }
-    #x {
-    color:rgb(255, 0, 0)  ;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: larger;
   }
 
 h1 {
@@ -96,7 +71,7 @@ input[type=submit] {
   border-radius: 20px;
   color: white;
   font-size: medium;
-  margin-left:100px;
+  margin-left:100px;    /* submit butonunun ortali olmasi icin yapildi */
   width:40%;
   margin-top: 10px;
 }
