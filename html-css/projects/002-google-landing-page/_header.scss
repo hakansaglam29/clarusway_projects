@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    
+    a {
+        text-decoration: none;
+        padding:10px;
+        color: rgb(34, 34, 34);
+        opacity: 75%;
+    }
+    a:hover {
+        text-decoration: underline;
+        }
+    img {
+        max-width: 85%;
+        opacity: 85%;
+    }
+    button {
+        background-color: rgb(66, 133, 244);
+        color: white;
+        border: 1px solid;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 6px 10px;
+    }  
+    }
+    .div-1 {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        }
+    .div-2 {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: auto;
+}

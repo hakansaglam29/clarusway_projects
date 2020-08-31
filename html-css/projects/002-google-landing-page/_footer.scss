@@ -1,0 +1,42 @@
+footer {
+    width: 99%;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    bottom:0;
+    opacity: 60%;
+    position: absolute;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    section {
+        display: flex;
+        border: 0.1px solid rgba(0, 0, 0, 0.050);
+        background-color: rgba(0, 0, 0, 0.050);
+        padding: 12px 0;
+        }
+    }
+    .div-7 {
+        padding-left: 20px;
+        border:0.1px solid rgba(0, 0, 0, 0.045);
+        background-color: rgba(0, 0, 0, 0.050);
+        padding:12px 20px;
+    }
+
+    .div-8 {
+        display: block;
+        padding-left: 20px;
+        a {
+            padding-right:20px;
+        }
+    }
+    .div-9 {
+    margin-left: auto;
+    padding-right: 20px;
+    display:block;
+        a {
+            padding-left:20px;
+        }
+    }

@@ -1,0 +1,66 @@
+main {
+.div-3 {
+    margin: auto;
+    width:290px;
+    padding-top:140px;
+    padding-left:20px;
+
+}
+.div-4 {
+    padding:25px 0 25px;
+    width: 580px;
+    margin:auto;
+    input {
+        width:100%;
+        padding: 9px 0;
+        border:0.5px solid rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        font-size: x-large;
+        text-indent: 2em;
+        position:relative;
+        background: url(./images/google_microphone.png) no-repeat scroll;
+        background-size:3%;
+        background-position-x: 530px;
+        background-position-y: center;
+    }
+    i {
+      position: absolute;
+      padding:15px 0 9px 15px;
+      opacity: 30%;
+    }
+}
+.div-5 {
+    margin: auto;
+    padding:12px 0 0;
+    width:350px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size:14px;
+    a {
+        text-decoration: none;
+        padding:11px 13px;
+        margin:0 5px;
+        color: rgba(0, 0, 0, 0.8);
+        border: 0px solid rgba(0, 0, 0, 0.15);
+        background-color: rgba(0, 0, 0, 0.050);
+        border-radius: 5px;
+        opacity: 70%;
+    }
+    a:hover {
+        background-color: rgba(0, 0, 0, 0.050);
+        text-decoration: none;
+        padding:11px 13px;
+        margin:0 5px;
+        color: rgba(0, 0,  0,1);
+        border: 0.5px solid rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+    }
+}
+
+.div-6 {
+    text-align: center;
+    padding: 25px;
+    font-family: arial, sans-serif;
+    font-size:13px;
+}
+}
